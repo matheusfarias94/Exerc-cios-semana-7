@@ -18,7 +18,6 @@ header{
     background-color:#84bfc3;
     width: 100%;
     height:150px;
-    text-align: center;
     
    
     
@@ -32,17 +31,14 @@ header{
     background-color: #ffb870;
     width: 250px;
     height: 100%;
-    text-align: center;
 
 
 }
 .content{
-    display: flex;
     flex-direction: row;
     background-color: #fff5d6;
     height:100%;
     width: 100%;
-    text-align: center;
     
 
     
