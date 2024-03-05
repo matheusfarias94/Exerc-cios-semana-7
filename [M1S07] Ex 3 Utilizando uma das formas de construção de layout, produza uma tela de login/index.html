@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando uma das formas de construção de layout, produza uma tela de login</title>
+    <link rel="stylesheet" href="/[M1S07] Ex 3 Utilizando uma das formas de construção de layout, produza uma tela de login/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.1.2/css/ionicons.min.css">
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="leftColumn">
+            <h1>Sign In to <br>this session</h1>
+            <p>If you don't have an accont,<br>You can <b>Register here!</b></p>
+            <img src="/[M1S07] Ex 3 Utilizando uma das formas de construção de layout, produza uma tela de login/image.png">
+        </div>
+        <div class="rightColumn">
+            <form id="login" class="mt-14">
+                <input id="mail" name="email" required type="email" placeholder="Email">
+                <input id="inputSenha" name="password" required type="password" placeholder="Password">
+                <span>Forgot password?</span>
+                <button type="submit">Sign In</button>
+            </form> 
+            <label class="mt-14 text-muted">Or</label>
+            <div class="row mt-6">
+                <a href="https://myaccount.google.com/" target="_blank"><button type="submit"  class="Google">Continue With Google</button></a>
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><button type="submit"class="Facebook">Continue with Facebook</button></a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
